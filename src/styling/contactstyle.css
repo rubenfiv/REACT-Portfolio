@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+  }
+
+body {
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+    width: 100%;
+}
+
+h2{
+    color: teal;
+}
+.nav-link{
+    background-color: teal;
+    text-align: center;
+}
+
+
+.navbar{
+    width: 100%;
+}
+ 
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.Title{
+    padding-bottom: 10px;
+    border-bottom: 3px solid lightgray;
+}
+
+.footer{
+    border-top: 6px solid teal;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}  
+
+.form{
+    margin: 20px;
+}
