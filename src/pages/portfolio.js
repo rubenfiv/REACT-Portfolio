@@ -1,12 +1,4 @@
 import React from "react";
-import eatDaBurger from '../images/eatDaBurger.png'
-import localHops from '../images/localHops.png'
-import noteTaker from '../images/noteTaker.png'
-import passwordGenerator from '../images/passwordGenerator.png'
-import superheroSearchEngine from '../images/superheroSearchEngine.png'
-import weatherDashboard from '../images/weatherDashboard.png'
-import resume from '../resume/newResume.pdf'
-import '../styling/portfoliostyle.css';
 
 function Portfolio() {
     return (
@@ -29,7 +21,7 @@ function Portfolio() {
                                 <div className="col s12 m7">
                                     <div className="card">
                                         <div className="card-image">
-                                            <img src={localHops}/>
+                                            <img src="./assets/images/localHops.png" />
                                         </div>
                                         <div className="card-action" style={{ color: "black", background: "teal" }}>
                                             <a href="https://local-hops.herokuapp.com/brewery">Local Hops</a>
@@ -44,7 +36,7 @@ function Portfolio() {
                                 <div className="col s12 m7">
                                     <div className="card">
                                         <div className="card-image">
-                                            <img src={superheroSearchEngine} />
+                                            <img src="./assets/images/superheroSearchEngine.png" />
                                         </div>
                                         <div className="card-action" style={{ color: "black", background: "teal" }}>
                                             <a href="https://rubenfiv.github.io/project-1-Superhero_Search_Engine/">Superhero Search Engine</a>
@@ -59,12 +51,12 @@ function Portfolio() {
                             <div className="col s12 m7">
                                 <div className="card">
                                     <div className="card-image">
-                                        <img src={eatDaBurger} />
+                                        <img src="./assets/images/eatDaBurger.png" />
                                     </div>
                                     <div className="card-action" style={{ background: "teal", textAlign: "center" }}>
-                                        <a href="https://handlebars-eat-da-burger.herokuapp.com/">Eat-Da-Burger</a>
+                                        <a href="https://secret-coast-00616.herokuapp.com/">Eat-Da-Burger</a>
                                         <br /><br />
-                                        <a href="https://github.com/rubenfiv/Node_Express_Handlebars-Eat_Da_Burger">GitHub Repository</a>
+                                        <a href="https://github.com/rubenfiv/burger">GitHub Repository</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,12 +65,12 @@ function Portfolio() {
                         <div className="col s12 m7">
                             <div className="card">
                                 <div className="card-image">
-                                    <img src={noteTaker} />
+                                    <img src="./assets/images/noteTaker.png" />
                                 </div>
                                 <div className="card-action" style={{ background: "teal", textAlign: "center" }}>
-                                    <a href="https://node-express-notetaker.herokuapp.com/">Note Taker</a>
+                                    <a href="https://ancient-refuge-39771.herokuapp.com/notes">Note Taker</a>
                                     <br /><br />
-                                    <a href="https://github.com/rubenfiv/Express-Note_Taker">GitHub Repository</a>
+                                    <a href="https://github.com/rubenfiv/Express_Note-Taker">GitHub Repository</a>
                                 </div>
                             </div>
                         </div>
@@ -89,12 +81,12 @@ function Portfolio() {
                         <div className="col s12 m7">
                             <div className="card">
                                 <div className="card-image">
-                                    <img src={weatherDashboard} />
+                                    <img src="./assets/images/weatherDashboard.png" />
                                 </div>
                                 <div className="card-action" style={{ background: "teal", textAlign: "center" }}>
-                                    <a href="https://rubenfiv.github.io/Server_Side_APIs-Weather_Dashboard/">Weather Dashboard</a>
+                                    <a href="https://rubenfiv.github.io/HW-06/">Weather Dashboard</a>
                                     <br /><br />
-                                    <a href="https://github.com/rubenfiv/Server_Side_APIs-Weather_Dashboard">GitHub Repository</a>
+                                    <a href="https://github.com/rubenfiv/Server-Side-APIs_Weather-Dashboard">GitHub Repository</a>
                                 </div>
                             </div>
                         </div>
@@ -103,10 +95,10 @@ function Portfolio() {
                     <div className="col s12 m7">
                         <div className="card">
                             <div className="card-image">
-                                <img src={passwordGenerator} />
+                                <img src="./assets/images/passwordGenerator.png" />
                             </div>
                             <div className="card-action" style={{ background: "teal", textAlign: "center" }}>
-                                <a href="https://rubenfiv.github.io/JavaScript_Password-Generator/">Password Generator</a>
+                                <a href="https://rubenfiv.github.io/03-JavaScript-Password-Generator/">Password Generator</a>
                                 <br /><br />
                                 <a href="https://github.com/rubenfiv/JavaScript_Password-Generator">GitHub Repository</a>
                             </div>
@@ -127,12 +119,12 @@ function Portfolio() {
                             <div className="Title">
                                 <h2>Contact Information</h2>
                                 <a href="https://github.com/rubenfiv">GitHub Profile</a>
-<br></br>
+
                                 <a href="https://www.linkedin.com/in/rubenfiv">LinkedIn Profile</a>
                                 <p>EMAIL: rubenfiv@gmail.com</p>
                                 <p>PHONE: +1 (956) 373-3333</p>
                                 <p>
-                                    <a href={resume}>VIEW RESUME</a>
+                                    <a href="./assets/newResume.pdf">VIEW RESUME</a>
                                 </p>
                             </div>
                         </div>

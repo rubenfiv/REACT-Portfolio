@@ -1,6 +1,4 @@
 import React from "react";
-import '../styling/indexstyle.css'
-import bioPic from '../images/bioPic.png'
 
 function Home() {
     return (
@@ -18,7 +16,7 @@ function Home() {
 
                         <div className="row">
                             <div className="col-sm-6">
-                                <img src={bioPic} style={{ width: "300px", height: "300px", paddingTop: "20px" }} id="BioPic" alt="Bio Pic" />
+                                <img src="../assets/images/bioPic.png" style={{ width: "300px", height: "300px", paddingTop: "20px" }} id="BioPic" alt="Bio Pic" />
                             </div>
 
                             <div className="row">

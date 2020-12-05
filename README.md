@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# REACT-Portfolio
+
+*Site Contents*
+- About Me page: Ruben's personalized info
+- Portfolio page: Ruben's projects
+
+*Project Links*
+-Superhero_Search_Engine
+https://rubenfiv.github.io/project-1-Superhero_Search_Engine/
+
+-Local_Hops
+https://local-hops.herokuapp.com/brewery
+>>>>>>> 693fb761aa5a4cf38dfcb5a1ee71fa2b8c2972ef
